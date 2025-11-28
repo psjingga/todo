@@ -87,27 +87,31 @@ Menggunakan API:
 ## 🚀 Cara Menjalankan
 
 ### 1️⃣ Clone Repo
-``bash
-git clone https://github.com/your-username/your-repo-name.git
-``bash
+``
+git clone https://github.com/psjingga/todo.git
+``
 
-``bash
-cd your-repo-name
-``bash
 
-``bash
+### 2️⃣ Masuk ke folder proyek:
+``
+cd todo
+``
+
+### 3️⃣ Install dependencies:
+``
 flutter pub get
-``bash
+``
 
-``bash
+### 4️⃣ Jalankan aplikasi:
+``
 flutter run
-``bash
+``
 
 
 ## 📁 Struktur Folder
 
 
-``markdown
+``
 lib/
 │
 ├── controllers/
@@ -125,7 +129,7 @@ lib/
 │
 └── utils/
     └── dialog_helper.dart
-``markdown
+``
 
 
 ## 🔧 Arsitektur
