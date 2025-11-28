@@ -78,7 +78,7 @@ Menggunakan API:
 
 ## 📱 Preview UI
 
-![alt text](image.png)
+![alt text]<img src="image.png" alt="Sample Image" width="300"/>
 
 
 
@@ -111,7 +111,7 @@ flutter run
 ## 📁 Struktur Folder
 
 
-``
+```
 lib/
 │
 ├── controllers/
@@ -129,26 +129,26 @@ lib/
 │
 └── utils/
     └── dialog_helper.dart
-``
+```
 
 
 ## 🔧 Arsitektur
-📌 1. Controller (GetX)
-Mengatur state + logic:
-Ambil data API
-Filter data
-Update status
-📌 2. Service
-HTTP Request:
-GET data
-PUT/PATCH update todo
-📌 3. View (UI)
-Semua UI menggunakan:
-Obx untuk reactive
-ListView untuk list data
-Widget terpisah agar clean
-📌 4. Dialog Helper
-1 file khusus yang berisi dialog dinamis.
+- 📌 1. Controller (GetX)
+  - Mengatur state + logic:
+    - Ambil data API
+    - Filter data
+    - Update status
+- T📌 2. Service
+  - HTTP Request:
+    - GET data
+    - PUT/PATCH update todo
+- 📌 3. View (UI)
+  - Semua UI menggunakan:
+    - Obx untuk reactive
+    - ListView untuk list data
+    - Widget terpisah agar clean
+- 📌 4. Dialog Helper
+  - 1 file khusus yang berisi dialog dinamis.
 
 ---
 
