@@ -4,8 +4,8 @@ A clean and simple task management application built with **Flutter + GetX**, su
 ---
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-green)
-![GitHub Stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social)
-![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue)
+![GitHub Stars](https://img.shields.io/github/stars/psjingga/todo?style=social)
+![Flutter](https://img.shields.io/badge/Flutter-3.35.7-blue)
 ![GetX](https://img.shields.io/badge/GetX-State%20Management-purple)
 
 ---
