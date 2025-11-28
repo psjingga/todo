@@ -77,8 +77,7 @@ Menggunakan API:
 
 
 ## 📱 Preview UI
-
-![alt text]<img src="image.png" alt="Sample Image" width="300"/>
+<img src="image.png" alt="Sample Image" width="200"/>
 
 
 
@@ -86,26 +85,14 @@ Menggunakan API:
 
 ## 🚀 Cara Menjalankan
 
-### 1️⃣ Clone Repo
-``
-git clone https://github.com/psjingga/todo.git
-``
-
-
-### 2️⃣ Masuk ke folder proyek:
-``
-cd todo
-``
-
-### 3️⃣ Install dependencies:
-``
-flutter pub get
-``
-
-### 4️⃣ Jalankan aplikasi:
-``
-flutter run
-``
+#### 1️⃣ Clone Repo
+> git clone https://github.com/psjingga/todo.git
+#### 2️⃣ Masuk ke folder proyek:
+> cd todo
+#### 3️⃣ Install dependencies:
+> flutter pub get
+#### 4️⃣ Jalankan aplikasi:
+> flutter run
 
 
 ## 📁 Struktur Folder
