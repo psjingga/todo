@@ -74,3 +74,73 @@ Menggunakan API:
 `https://dummyjson.com/todos`
 
 ### 🔹 Get All Todos
+
+
+## 📱 Preview UI
+
+![alt text](image.png)
+
+
+
+---
+
+## 🚀 Cara Menjalankan
+
+### 1️⃣ Clone Repo
+``bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
+``bash
+
+
+## 📁 Struktur Folder
+
+lib/
+│
+├── controllers/
+│   └── todo_controller.dart
+│
+├── services/
+│   └── todo_service.dart
+│
+├── views/
+│   ├── home_page.dart
+│   ├── todo_list.dart
+│   └── widgets/
+│       ├── todo_item.dart
+│       └── status_menu.dart
+│
+└── utils/
+    └── dialog_helper.dart
+
+
+## 🔧 Arsitektur
+📌 1. Controller (GetX)
+Mengatur state + logic:
+Ambil data API
+Filter data
+Update status
+📌 2. Service
+HTTP Request:
+GET data
+PUT/PATCH update todo
+📌 3. View (UI)
+Semua UI menggunakan:
+Obx untuk reactive
+ListView untuk list data
+Widget terpisah agar clean
+📌 4. Dialog Helper
+1 file khusus yang berisi dialog dinamis.
+
+---
+
+## 📄 Lisensi
+Aplikasi ini dirilis menggunakan lisensi MIT.
+Bebas dipakai, dimodifikasi, dan dikembangkan.
+
+---
+
+⭐ Support
+Jika kamu suka dengan proyek ini, klik ⭐ Star di GitHub.
