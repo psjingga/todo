@@ -89,14 +89,25 @@ Menggunakan API:
 ### 1️⃣ Clone Repo
 ``bash
 git clone https://github.com/your-username/your-repo-name.git
+``bash
+
+``bash
 cd your-repo-name
+``bash
+
+``bash
 flutter pub get
+``bash
+
+``bash
 flutter run
 ``bash
 
 
 ## 📁 Struktur Folder
 
+
+``markdown
 lib/
 │
 ├── controllers/
@@ -114,6 +125,7 @@ lib/
 │
 └── utils/
     └── dialog_helper.dart
+``markdown
 
 
 ## 🔧 Arsitektur
