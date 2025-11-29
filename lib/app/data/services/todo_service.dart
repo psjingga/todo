@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:todo_list/app/modules/shared_widget/dialog.dart';
+import '../../modules/shared_widget/dialog.dart';
 
 import '../models/todos_model.dart';
 

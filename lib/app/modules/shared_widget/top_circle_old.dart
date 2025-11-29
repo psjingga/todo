@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_list/app/modules/home/controllers/home_controller.dart';
+import '../home/controllers/home_controller.dart';
 
-class TopCircleMenu extends StatefulWidget {
-  const TopCircleMenu({super.key});
+class TopCircleMenuOld extends StatefulWidget {
+  const TopCircleMenuOld({super.key});
 
   @override
-  State<TopCircleMenu> createState() => _TopCircleMenuState();
+  State<TopCircleMenuOld> createState() => _TopCircleMenuOldState();
 }
 
-class _TopCircleMenuState extends State<TopCircleMenu> {
+class _TopCircleMenuOldState extends State<TopCircleMenuOld> {
   int selectedIndex = 0; // trending default
 
   final HomeController c = Get.put(HomeController());
@@ -17,10 +17,6 @@ class _TopCircleMenuState extends State<TopCircleMenu> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(50), // radius seperti gambar
-      ),
       margin: EdgeInsets.only(top: Get.height * 0.02),
       height: 110,
       child: Row(

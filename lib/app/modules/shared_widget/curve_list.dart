@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_list/app/modules/shared_widget/dialog.dart';
+import 'dialog.dart';
 import '../home/controllers/home_controller.dart';
 
 class CurvedListItem extends StatelessWidget {
   final int id;
   final String? title;
-  final String? time;
+  final String time;
   final IconData? icon;
   final String? people;
-  final Color? color;
+  final Color color;
   final Color? nextColor;
   final bool status;
   const CurvedListItem({
     super.key,
     this.title,
-    this.time,
+    required this.time,
     this.people,
-    this.color,
+    required this.color,
     this.nextColor,
     this.icon,
     required this.status,
@@ -55,7 +55,7 @@ class CurvedListItem extends StatelessWidget {
         child: Container(
           padding: EdgeInsets.all(Get.height * 0.04),
           decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [Color(0xff9cadce), ?color, ?color], begin: Alignment.topLeft, end: Alignment.bottomRight),
+            gradient: LinearGradient(colors: [Color(0xff9cadce), color, color], begin: Alignment.topLeft, end: Alignment.bottomRight),
             borderRadius: const BorderRadius.only(bottomRight: Radius.circular(80.0)),
             boxShadow: [BoxShadow(color: Colors.black38, blurRadius: 20, offset: Offset(-4, 6))],
           ),
@@ -69,7 +69,7 @@ class CurvedListItem extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text(time!, style: TextStyle(color: Colors.white, fontSize: 12)),
+                  Text(time, style: TextStyle(color: Colors.white, fontSize: 12)),
                   const SizedBox(height: 2),
                   SizedBox(
                     height: 50,
